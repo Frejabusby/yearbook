@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: #0025FF;
   color: #fff;
@@ -5,6 +9,7 @@ html {
 
 header {
   padding: 20px;
+  text-align: center;
 }
 
 .logo {
@@ -19,4 +24,49 @@ header {
 .logo img {
   width: 140px;
   margin-top: 55px;
+}
+
+.yearbook {
+  overflow: auto;
+}
+
+.yearbook:after {
+  content: "";
+  clear: both;
+}
+
+.student {
+  background: #fff;
+  width: calc(25% - 28px);
+  float: left;
+  margin: 14px;
+  padding: 7px;
+  text-align: center;
+  box-shadow: 2px 6px 15px -1px #2b2b2b;
+}
+
+.student img {
+  width: 100%;
+}
+
+h2, h3, p {
+  color: #ffaec1;
+  font-family: Bungee Shade, sans-serif;
+  text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+footer {
+  padding: 20px 0px 20px 0px;
 }
